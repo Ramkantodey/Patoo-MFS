@@ -35,7 +35,7 @@ document.getElementById('button-login').addEventListener('click', function (even
     const pinNumber = document.getElementById('pin-number').value;
     // console.log(phoneNumber, pinNumber);
     // bad way to validate
-    if (phoneNumber === '5' && pinNumber === '1234') {
+    if (phoneNumber === '01888315680' && pinNumber === '4404') {
         window.location.href = '/home.html'
     }
     else {

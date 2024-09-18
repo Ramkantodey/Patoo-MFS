@@ -21,7 +21,7 @@ document.getElementById('btn-add-money').addEventListener('click', function (eve
     // step-3: verify pin number
     // wrong way to validate pin number
 
-    if (pinNumberInput === '1234') {
+    if (pinNumberInput === '4404') {
         // step - 4: get the current balance
         const balance = document.getElementById('account-balance').innerText;
 
